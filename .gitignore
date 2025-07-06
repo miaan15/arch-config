@@ -1,0 +1,5 @@
+dconf/
+systemd/
+go/
+mimeapps.list
+pavucontrol.ini
