@@ -32,7 +32,6 @@
     },
     "battery": {
         "format": "{capacity}% {icon}",
-        "format-alt": "{time} {icon}",
         "format-icons": ["", "", "", "", ""],
         "format-charging": "{capacity}% ",
         "interval": 20,
@@ -51,7 +50,8 @@
             "ethernet": [""],
             "disconnected": [""]
         },
-        "on-click": "termite -e nmtui",
+	"interval": 1,
+        "on-click": "kitty -e nmtui",
         "tooltip": false
     },
     "pulseaudio": {
@@ -78,7 +78,7 @@
         "interval": 5
     },
     "cpu": {
-        "format": "{usage:2}% ",
+        "format": "{usage}% ",
         "interval": 3
     },
     "temperature": {
