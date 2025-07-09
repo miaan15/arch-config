@@ -33,7 +33,12 @@ exec --no-startup-id mako
 
 # Input configuration
 input "5426:152:Razer_Razer_DeathAdder_Essential" {
-    pointer_accel 0
+    pointer_accel -0.6
+}
+input "1739:52861:SYNA32B9:00_06CB:CE7D_Touchpad" {
+    tap enable
+    natural_scroll enable
+    dwt enabled
 }
 
 # Output configuration

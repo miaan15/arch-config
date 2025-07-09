@@ -34,7 +34,7 @@
         "format": "{capacity}% {icon}",
         "format-icons": ["", "", "", "", ""],
         "format-charging": "{capacity}% ",
-        "interval": 20,
+        "interval": 3,
         "states": {
             "warning": 25,
             "critical": 10
