@@ -11,7 +11,7 @@ return {
     vim.opt.termguicolors = true
     vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
 
-    require("nvim-tree").setup {
+    require("nvim-tree").setup({
       sort = {
         sorter = "case_sensitive",
       },
@@ -22,8 +22,13 @@ return {
         group_empty = false,
       },
       filters = {
+        git_ignored = false,
         dotfiles = false,
       },
-    }
+      git = {
+        enable = true,
+        ignore = false,
+      },
+    })
   end,
 }
