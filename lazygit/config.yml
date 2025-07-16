@@ -2,9 +2,9 @@ gui:
   showIcons: false
   theme:
     selectedLineBgColor:
-      - default
+      - blue
     selectedRangeBgColor:
-      - default
+      - blue
     activeBorderColor:
       - white
     inactiveBorderColor:
