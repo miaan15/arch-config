@@ -1,10 +1,10 @@
 #!/bin/sh
 
-entries="Lock
+entries="Reboot
+Shutdown
+Lock
 Logout
-Suspend
-Reboot
-Shutdown"
+Suspend"
 
 selected=$(echo "$entries" | fuzzel --dmenu --prompt="Power:")
 
