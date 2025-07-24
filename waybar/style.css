@@ -2,7 +2,7 @@
     border:        none;
     border-radius: 0;
     font-family:   Sans;
-    font-size:     14px;
+    font-size:     15px;
     box-shadow:    none;
     text-shadow:   none;
     transition-duration: 0s;
@@ -15,7 +15,7 @@ window {
 
 window#waybar.solo {
     color:      rgba(217, 216, 216, 1);
-    background: rgba(35, 31, 50, 0.85);
+    background: rgba(35, 31, 50, 1);
 }
 
 #workspaces {
