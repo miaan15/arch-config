@@ -20,6 +20,6 @@ vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper win
 -- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
 --
 vim.keymap.set("n", "gbn", ":bnext<CR>", { desc = "Next buffer" })
-vim.keymap.set("n", "gb<C-n>", ":bprevious<CR>", { desc = "Previous buffer" })
+vim.keymap.set("n", "gbm", ":bprevious<CR>", { desc = "Previous buffer" })
 vim.keymap.set("n", "gbx", ":bdelete<CR>", { desc = "Closes buffer" })
-vim.keymap.set("n", "gb;", "<C-^>", { desc = "Switch to last buffer" })
+vim.keymap.set("n", "gbb", "<C-^>", { desc = "Switch to last buffer" })
